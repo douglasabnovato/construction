@@ -21,7 +21,7 @@ Para demonstrar detalhes dos projetos
 - Netlify: https://www.netlify.com/
 - Original Images: https://www.freepik.es/
 
-💙 Join the channel to see more videos like this. [Bedimcode](https://www.youtube.com/@Bedimcode)
+💙💙 Join the channel to see more videos like this. [Bedimcode](https://www.youtube.com/@Bedimcode)
 
 ![preview img](/preview.png)
 
