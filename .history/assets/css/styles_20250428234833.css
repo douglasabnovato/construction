@@ -182,7 +182,7 @@ img {
   .nav__menu {
     position: fixed;
     top: 0;
-    right: -100%;
+    right: 0;
     background-color: var(--black-color);
     width: 80%;
     height: 100%;
@@ -215,9 +215,6 @@ img {
 }
 
 /* Show menu */
-.show-menu {
-  right: 0;
-}
 
 /* Change background header */
 
@@ -233,10 +230,6 @@ img {
   font-weight: var(--font-semi-bold);
   padding: 1rem 2rem;
   transition: box-shadow .4s;
-}
-
-.button:hover{
-
 }
 
 /*=============== ABOUT ===============*/

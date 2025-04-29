@@ -182,13 +182,13 @@ img {
   .nav__menu {
     position: fixed;
     top: 0;
-    right: -100%;
+    right: 0;
     background-color: var(--black-color);
     width: 80%;
     height: 100%;
     padding: 7.5rem 3.5rem 0;
     border-left: 2px solid var(--black-border);
-    transition: right 0.4s;
+    transition: right .4s;
   }
 }
 
@@ -201,10 +201,10 @@ img {
 .nav__link {
   color: var(--text-color-light);
   font-weight: var(--font-semi-bold);
-  transition: color 0.4s;
+  transition: color .4s;
 }
 
-.nav__link:hover {
+.nav__link:hover{
   color: var(--first-color);
 }
 
@@ -215,9 +215,6 @@ img {
 }
 
 /* Show menu */
-.show-menu {
-  right: 0;
-}
 
 /* Change background header */
 
@@ -226,17 +223,8 @@ img {
 /*=============== HOME ===============*/
 
 /*=============== BUTTON ===============*/
-.button {
-  display: inline-flex;
-  background: var(--first-gradient);
-  color: var(--white-color);
-  font-weight: var(--font-semi-bold);
-  padding: 1rem 2rem;
-  transition: box-shadow .4s;
-}
-
-.button:hover{
-
+.button{
+  
 }
 
 /*=============== ABOUT ===============*/
