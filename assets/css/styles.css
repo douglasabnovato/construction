@@ -224,6 +224,43 @@ img {
 /* Active link */
 
 /*=============== HOME ===============*/
+.home {
+  position: relative;
+  background-color: var(--black-color);
+}
+
+.home__container {
+  position: relative;
+  row-gap: 3rem;
+  padding-block: 2.5rem 6rem;
+}
+
+.home__content { 
+  row-gap: 2.5rem; 
+}
+
+.home__data { 
+  text-align: center; 
+}
+
+.home__title {
+  color: var(--white-color);
+  font-size: var(--big-font-size);
+  font-weight: var(--font-bold);
+  margin-bottom: 1rem;
+}
+
+.home__description{
+  margin-bottom: 2.5rem;
+  color: var(--text-color-light);
+}
+
+.home_buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
 
 /*=============== BUTTON ===============*/
 .button {
@@ -236,7 +273,24 @@ img {
 }
 
 .button:hover{
+  box-shadow: 0 8px 32px hsla(18, 95%, 55%, .3);
+  color: var(--white-color);
+}
 
+.button__link {
+  display: flex;
+  align-items: center;
+  column-gap: .25rem;
+  color: var(--first-color);
+}
+
+.button__link span{
+  font-weight: var(--font-semi-bold);
+}
+
+.button__link i {
+  font-size: 1.5rem;
+  transition: transform .4s;
 }
 
 /*=============== ABOUT ===============*/
