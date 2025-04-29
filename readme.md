@@ -11,6 +11,26 @@ Para demonstrar detalhes dos projetos
 - Compatible with all mobile devices and with a beautiful and pleasant user interface.
 - Watch it on youtube: https://youtu.be/IOyZO_l94ME 
 
+### ⌚ Timestamps
+
+- 0:00 Intro Responsive Construction Website
+- 3:17 Project Setup
+- 4:45 Header & Nav
+- 13:20 Section Home
+- 21:00 Change Background Header
+- 23:10 Section About
+- 28:00 Section Services
+- 39:05 Section Projects
+- 43:20 Section Contact
+- 49:45 Footer
+- 57:35 Scroll Bar
+- 58:30 Scroll Up
+- 01:01:05 Scroll Sections Active Link
+- 01:02:40 Breakpoints
+- 1:22:18 ScrollReveal Animation
+- 1:25:30 Website Deployment (Uploading to the internet)
+- 1:26:40 Final Project
+
 ### 🔗 Resources
 
 - CDN Icons: https://cdnjs.com/libraries/remixicon
