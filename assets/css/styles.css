@@ -140,8 +140,9 @@ img {
   width: 100%;
   top: 0;
   left: 0;
-  background-color: var(--black-color);
+  background-color: transparent;
   z-index: var(--z-fixed);
+  transition: background-color .4s;
 }
 
 .nav {
@@ -220,6 +221,15 @@ img {
 }
 
 /* Change background header */
+.bgHeader{
+  background-color: var(--body-color);
+  box-shadow: 0 4px 16px hsla(255, 90%, 8%, .1);
+}
+
+.bgHeader .nav__logo span,
+.bgHeader .nav__toggle{
+  color: var(--title-color);
+}
 
 /* Active link */
 
@@ -262,6 +272,52 @@ img {
   gap: 1rem;
 }
 
+.home__info{
+  display: flex;
+  justify-content: center;
+  column-gap: 4.5rem; 
+}
+
+.home__info-title{
+  color: var(--second-color);
+  font-size: var(--big-font-size);
+  font-weight: var(--font-bold);
+  margin-bottom: .5rem;
+}
+
+.home__info-description{
+  font-size: var(--small-font-size);
+  color: var(--white-color);
+}
+
+.home__images{
+  position: relative;
+  justify-self: center;
+}
+
+.home__img-1{
+  width: 250px;
+  margin-left: 3.5rem;
+}
+
+.home__img-2{
+  width: 150px;
+  border: 5px solid var(--black-color);
+  position: absolute;
+  left: 0;
+  bottom: -3.5rem;
+}
+
+.home__lines{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: right;
+}
+
 /*=============== BUTTON ===============*/
 .button {
   display: inline-flex;
@@ -291,6 +347,10 @@ img {
 .button__link i {
   font-size: 1.5rem;
   transition: transform .4s;
+}
+
+.button__link:hover i {
+  transform: translateX(.25rem)
 }
 
 /*=============== ABOUT ===============*/
