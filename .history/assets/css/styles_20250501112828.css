@@ -226,8 +226,8 @@ img {
   box-shadow: 0 4px 16px hsla(255, 90%, 8%, .1);
 }
 
-.bg-header .nav__logo span,
-.bg-header .nav__toggle{
+.bgHeader .nav__logo span,
+.bgHeader .nav__toggle{
   color: var(--title-color);
 }
 
