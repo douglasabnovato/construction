@@ -40,6 +40,7 @@ Para demonstrar detalhes dos projetos
 - ScrollReveal: https://scrollrevealjs.org/
 - Netlify: https://www.netlify.com/
 - Original Images: https://www.freepik.es/
+- Swiper Js: https://swiperjs.com/
 
 💙💙 Join the channel to see more videos like this. [Bedimcode](https://www.youtube.com/@Bedimcode)
 
