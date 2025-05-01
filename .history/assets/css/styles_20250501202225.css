@@ -592,9 +592,7 @@ img {
   transition: transform .4s;
 }
 
-.contact__social-link:hover {
-  transform: translateY(-.25rem);
-}
+
 
 
 /*=============== FOOTER ===============*/
