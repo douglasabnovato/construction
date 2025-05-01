@@ -519,15 +519,9 @@ img {
   padding: 1.5rem 1rem 3rem;
 }
 
-.projects__title{
+.projects_title{
   font-size: var(--h2-font-size);
   margin-block: .5rem;
-}
-
-.projects__date {
-  display: block;
-  font-weight: var(--title-color);
-  margin-bottom: 1.5rem;
 }
 
 /*=============== CONTACT ===============*/
