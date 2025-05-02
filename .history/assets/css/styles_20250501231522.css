@@ -268,7 +268,7 @@ img {
   color: var(--text-color-light);
 }
 
-.home__buttons {
+.home_buttons {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1024,20 +1024,20 @@ img {
     column-gap: 7rem;
   }
 
-  .footer__description {
+  .footer__description{
     margin-block: 1.5rem;
   }
 
-  .footer__title {
+  .footer__title{
     margin-bottom: 1.5rem;
   }
 
   .footer__links,
-  .footer__list {
+  .footer__list{
     row-gap: 1rem;
   }
 
-  .scrollup {
+  .scrollup{
     right: 3rem;
   }
 }

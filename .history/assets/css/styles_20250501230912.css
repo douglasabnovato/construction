@@ -268,7 +268,7 @@ img {
   color: var(--text-color-light);
 }
 
-.home__buttons {
+.home_buttons {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -996,48 +996,11 @@ img {
     padding-block: 3.5rem 4rem;
   }
 
-  .contact__img {
+  .contact__img{
     width: 530px;
   }
 
-  .contact_data {
+  .contact_data{
     gap: 2rem;
-  }
-
-  .contact__card {
-    border-width: 3px;
-  }
-
-  .contact_title {
-    font-size: var(--h3-font-size);
-  }
-
-  .footer {
-    padding-block: 4.5rem 3rem;
-  }
-
-  .footer__container {
-    padding-bottom: 6rem;
-  }
-
-  .footer__container {
-    column-gap: 7rem;
-  }
-
-  .footer__description {
-    margin-block: 1.5rem;
-  }
-
-  .footer__title {
-    margin-bottom: 1.5rem;
-  }
-
-  .footer__links,
-  .footer__list {
-    row-gap: 1rem;
-  }
-
-  .scrollup {
-    right: 3rem;
   }
 }

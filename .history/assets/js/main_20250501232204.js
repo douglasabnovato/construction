@@ -93,8 +93,5 @@ const sr = ScrollReveal({
   reset: true,
 });
 
-sr.reveal(`.home__content, .services__data, .services__swiper, footer__container`);
+sr.reveal(`.home__content`);
 sr.reveal(`.home__images`, { origin: "bottom", delay: 1000 });
-sr.reveal(`.about__images, .contact_img`, { origin: "left" });
-sr.reveal(`.about__data, .contact__data`, { origin: "right" });
-sr.reveal(`.projects__card`, { interval: 100 });
