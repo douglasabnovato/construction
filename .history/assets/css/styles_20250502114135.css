@@ -380,7 +380,7 @@ img {
 .about__list-item {
   display: flex;
   column-gap: 0.5rem;
-  color: var(--title-color);
+  color: var(--tittle-color);
 }
 
 .about__list-item i {
@@ -707,7 +707,7 @@ img {
   bottom: -50%;
   background-color: var(--body-color);
   box-shadow: 0 4px 16px hsla(255, 90%, 8%, 0.15);
-  color: var(--title-color);
+  color: var(--tittle-color);
   display: inline-flex;
   padding: 6px;
   font-size: 1.25rem;
