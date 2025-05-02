@@ -766,7 +766,6 @@ img {
     grid-template-columns: repeat(1, max-content);
   }
 }
-  
 /* For medium devices */
 @media screen and (min-width: 540px) {
   .home__container,
@@ -930,7 +929,7 @@ img {
     margin-bottom: 3.5rem;
   }
 
-  .services__container {
+  .section__container {
     grid-template-columns: initial;
     row-gap: 5rem;
     padding-bottom: 4.5rem;
