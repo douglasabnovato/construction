@@ -673,14 +673,7 @@ img {
 }
 
 .footer__social-link:hover{
-  transform: translateY(-.25rem);
-}
-
-.footer__copy{
-  display: block;
-  text-align: center;
-  font-size: var(--small-font-size);
-  margin-top: 4rem;
+  transform: translateY(-.25rem)
 }
 
 /*=============== SCROLL BAR ===============*/

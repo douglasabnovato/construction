@@ -672,17 +672,6 @@ img {
   transition: transform .4s;
 }
 
-.footer__social-link:hover{
-  transform: translateY(-.25rem);
-}
-
-.footer__copy{
-  display: block;
-  text-align: center;
-  font-size: var(--small-font-size);
-  margin-top: 4rem;
-}
-
 /*=============== SCROLL BAR ===============*/
 
 /*=============== SCROLL UP ===============*/
