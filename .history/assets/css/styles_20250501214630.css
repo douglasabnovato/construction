@@ -232,9 +232,6 @@ img {
 }
 
 /* Active link */
-.active-link {
-  color: var(--first-color);
-}
 
 /*=============== HOME ===============*/
 .home {
@@ -720,9 +717,6 @@ img {
 }
 
 /* Show Scroll Up */
-.show-scroll {
-  bottom: 3rem;
-}
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */

@@ -232,9 +232,6 @@ img {
 }
 
 /* Active link */
-.active-link {
-  color: var(--first-color);
-}
 
 /*=============== HOME ===============*/
 .home {
@@ -719,10 +716,11 @@ img {
   transform: translateY(-0.5rem);
 }
 
-/* Show Scroll Up */
-.show-scroll {
+.show-scroll{
   bottom: 3rem;
 }
+
+/* Show Scroll Up */
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
