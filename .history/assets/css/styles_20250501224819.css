@@ -939,7 +939,7 @@ img {
     display: grid;
     grid-template-columns: 415px 370px max-content;
     justify-content: space-between;
-    align-items: center;
+    align-items: cen;
   }
 
 

@@ -926,22 +926,6 @@ img {
 
   .about__list{
     grid-template-columns: repeat(2, 1fr);
-    margin-bottom: 3.5rem;
   }
-
-  .section__container{
-    grid-template-columns: initial;
-    row-gap: 5rem;
-    padding-bottom: 4.5rem;
-  }
-
-  .services__data{
-    display: grid;
-    grid-template-columns: 415px 370px max-content;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-
 
 }
