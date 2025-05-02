@@ -165,7 +165,7 @@ img {
   transition: color 0.4s;
 }
 
-.nav__logo i {
+.nav__logoi i {
   color: var(--first-color);
   font-size: 1.5rem;
 }
