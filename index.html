@@ -6,10 +6,23 @@
 
     <!--=============== FAVICON ===============-->
     <link
-      rel="shortcut icon"
-      href="assets/img/favicon.png"
-      type="image/x-icon"
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon/apple-touch-icon.png"
     />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
 
     <!--=============== REMIXICONS ===============-->
     <link
@@ -23,15 +36,19 @@
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="assets/css/styles.css" />
 
-    <title>Construction</title>
+    <title>Instituto Salus</title>
   </head>
   <body>
-    <!--==================== HEADER ====================-->
+    <!--==================== HEADER ==================== <i class="ri-building-3-line"></i> -->
     <header class="header bg-header" id="header">
       <nav class="nav container">
         <a href="#" class="nav__logo">
-          <i class="ri-building-3-line"></i>
-          <span>Construct</span>
+          <img
+            src="./assets/img/favicon.ico"
+            alt="logo instituto salus"
+            srcset=""
+          />
+          <span>Instituto Salus</span>
         </a>
         <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
@@ -39,16 +56,16 @@
               <a href="#home" class="nav__link active-link">Home</a>
             </li>
             <li>
-              <a href="#about" class="nav__link"> About Us</a>
+              <a href="#about" class="nav__link">Instituto Salus</a>
             </li>
             <li>
-              <a href="#services" class="nav__link"> Services</a>
+              <a href="#services" class="nav__link">Nossas Especialidades</a>
             </li>
             <li>
-              <a href="#projects" class="nav__link"> Projects</a>
+              <a href="#projects" class="nav__link">Treinamentos</a>
             </li>
             <li>
-              <a href="#contact" class="nav__link button"> Contact Us</a>
+              <a href="#contact" class="nav__link button">Faça sua inscrição</a>
             </li>
           </ul>
           <!-- Close Button -->
@@ -76,34 +93,34 @@
           <div class="home__content grid">
             <div class="home__data">
               <h1 class="home__title">
-                Create The<br />
-                Constructions<br />
-                You Want Here
+                CONSTRUA A<br />
+                SUA CARREIRA<br />
+                NA SAÚDE AQUI
               </h1>
               <p class="home__description">
-                We provide the best home design, construction and maintenance
-                services for you and your family.
+                Oferecemos os melhores treinamentos na saúde, enfermagem,
+                fisioterapia, para você transformar a sua carreira.
               </p>
               <div class="home__buttons">
-                <a href="#services" class="button">Our Services</a>
+                <a href="#services" class="button">Nossas Especialidades</a>
                 <a href="#projects" class="button__link"
-                  ><span>View Projects</span> <i class="ri-arrow-right-line"></i
+                  ><span>Treinamentos</span> <i class="ri-arrow-right-line"></i
                 ></a>
               </div>
             </div>
             <div class="home__info">
               <div>
-                <h3 class="home__info-title">10+</h3>
+                <h3 class="home__info-title">12+</h3>
                 <p class="home__info-description">
-                  Years of <br />
-                  Experience
+                  Anos de <br />
+                  Experiência
                 </p>
               </div>
               <div>
-                <h3 class="home__info-title">200</h3>
+                <h3 class="home__info-title">100+</h3>
                 <p class="home__info-description">
-                  Complete <br />
-                  Projects
+                  Alunos <br />
+                  Transformados
                 </p>
               </div>
             </div>
@@ -127,34 +144,42 @@
       <section class="about section" id="about">
         <div class="about__container container grid">
           <div class="about__data">
-            <span class="section__subtitle">ABOUT US</span>
+            <span class="section__subtitle"
+              >INSTITUTO SALUS DE EDUCAÇÃO PROFISSIONAL</span
+            >
             <h2 class="section__title">
-              We Provide The Best <br />
-              Service To Build
+              Uma Sociedade Mais <br />
+              Saudável
             </h2>
             <p class="about__description">
-              We strive to provide the best professionals to make your project a
-              construction masterpiece, something unique and unmatched.
+              Tem como propósito, formar profissionais técnicos com excelência,
+              ética e forte compromisso com o bem-estar coletivo, contribuindo
+              para uma sociedade mais saudável através de profissionais
+              capacitados. <br /><br />
+              "Salus", do latim, significa saúde e bem-estar, valores que
+              fundamentam nossa abordagem educacional. Ao integrar o significado
+              do nome ao nosso objetivo como escola técnica, reafirmamos nosso
+              compromisso.
             </p>
             <ul class="about__list grid">
               <li class="about__list-item">
                 <i class="ri-checkbox-circle-line"></i>
-                <span>Professional workers</span>
+                <span>Instrutores experientes</span>
               </li>
               <li class="about__list-item">
                 <i class="ri-checkbox-circle-line"></i>
-                <span>Guaranteed quality</span>
+                <span>Prática desde o início</span>
               </li>
               <li class="about__list-item">
                 <i class="ri-checkbox-circle-line"></i>
-                <span>Extensive experience</span>
+                <span>Formação completa</span>
               </li>
               <li class="about__list-item">
                 <i class="ri-checkbox-circle-line"></i>
-                <span>We quote your project</span>
+                <span>Treinamentos livres </span>
               </li>
             </ul>
-            <a href="#" class="button">View Projects</a>
+            <a href="#projects" class="button">Veja os Treinamentos</a>
           </div>
           <div class="about__images">
             <img
@@ -176,77 +201,68 @@
         <div class="services__container container grid">
           <div class="services__data">
             <div>
-              <span class="section__subtitle">OUR SERVICES</span>
+              <span class="section__subtitle">NOSSAS ESPECIALIDADES</span>
               <h2 class="section__title">
-                High Quality <br />
-                Construction Services
+                Formação da Saúde <br />
+                de Alta Qualidade
               </h2>
             </div>
             <p class="services__description">
-              We provide multiple services for you, offering confidence and
-              security in construction.
+              Oferecemos diversas especializações para você, oferecendo
+              confiança, segurança e prática na sua formação.
             </p>
-            <a href="#contact" class="button">Contact Now</a>
+            <a href="#contact" class="button">Converse com a gente</a>
           </div>
           <div class="services__swiper swiper">
             <div class="swiper-wrapper">
               <article class="services__card swiper-slide">
                 <div class="services__icon">
-                  <i class="ri-building-line"></i>
+                  <i class="ri-service-line"></i>
                 </div>
-                <h3 class="services__title">
-                  Housing <br />
-                  Construction
-                </h3>
+                <h3 class="services__title">Saúde <br /></h3>
                 <p>
-                  We build with the best professionals and high-quality work for
-                  a safe and effective home.
+                  Saúde integral com educação e práticas inovadoras. Formação
+                  humanizada e científica para prevenção e cuidado.
                 </p>
               </article>
               <article class="services__card swiper-slide">
                 <div class="services__icon">
-                  <i class="ri-home-office-line"></i>
+                  <i class="ri-nurse-line"></i>
                 </div>
-                <h3 class="services__title">
-                  Construction Of <br />
-                  Home Areas
-                </h3>
+                <h3 class="services__title">Enfermagem<br /></h3>
                 <p>
-                  We build with the best professionals and high-quality work for
-                  a safe and effective home.
+                  Enfermeiros técnicos competentes e éticos. Cuidados de
+                  qualidade e atendimento humanizado em saúde.
                 </p>
               </article>
               <article class="services__card swiper-slide">
-                <div class="services__icon"><i class="ri-tools-line"></i></div>
-                <h3 class="services__title">
-                  Maintenance & <br />
-                  Repair
-                </h3>
+                <div class="services__icon">
+                  <i class="ri-capsule-line"></i>
+                </div>
+                <h3 class="services__title">Farmácia<br /></h3>
                 <p>
-                  We build with the best professionals and high-quality work for
-                  a safe and effective home.
+                  Técnicos em farmácia: medicamentos, dispensação, controle e
+                  atenção farmacêutica ética.
                 </p>
               </article>
               <article class="services__card swiper-slide">
-                <div class="services__icon"><i class="ri-box-3-line"></i></div>
-                <h3 class="services__title">
-                  Installation Of <br />
-                  ceramics & Others
-                </h3>
+                <div class="services__icon">
+                  <i class="ri-input-method-line"></i>
+                </div>
+                <h3 class="services__title">Metodologia<br /></h3>
                 <p>
-                  We build with the best professionals and high-quality work for
-                  a safe and effective home.
+                  Ferramentas metodológicas para prática profissional e pesquisa
+                  eficaz na área da saúde.
                 </p>
               </article>
               <article class="services__card swiper-slide">
-                <div class="services__icon"><i class="ri-drop-line"></i></div>
-                <h3 class="services__title">
-                  Water & Drainage <br />
-                  Installation
-                </h3>
+                <div class="services__icon">
+                  <i class="ri-bubble-chart-line"></i>
+                </div>
+                <h3 class="services__title">Análise Cliníca <br /></h3>
                 <p>
-                  We build with the best professionals and high-quality work for
-                  a safe and effective home.
+                  Desenvolvimento de análise reflexiva para decisões embasadas e
+                  aprimoramento na saúde.
                 </p>
               </article>
             </div>
@@ -264,12 +280,105 @@
 
       <!--==================== PROJECTS ====================-->
       <section class="projects section" id="projects">
-        <span class="section__subtitle">OUR PROJECTS</span>
+        <span class="section__subtitle">TREINAMENTOS</span>
         <h2 class="section__title">
-          Latest Completed <br />
-          Projects
+          Cursos Livres <br />
+          com Turmas Abertas
         </h2>
         <div class="projects__container container grid">
+          <article class="projects__card">
+            <img
+              src="./assets/img/projects-img-1.png"
+              alt="image"
+              class="projects__img"
+            />
+            <div class="projects__data">
+              <span>Saúde</span>
+              <h2 class="projects__title">Saúde Integral</h2>
+              <span class="projects__date">Bem-Estar Global</span>
+              <p>
+                Promovemos a saúde em todas as dimensões, com foco em prevenção,
+                qualidade de vida e bem-estar geral.
+              </p>
+            </div>
+          </article>
+          <article class="projects__card">
+            <img
+              src="./assets/img/projects-img-2.png"
+              alt="image"
+              class="projects__img"
+            />
+            <div class="projects__data">
+              <span>Saúde</span>
+              <h2 class="projects__title">Saúde Plena</h2>
+              <span class="projects__date">Viver Melhor</span>
+              <p>
+                Capacitação para profissionais que buscam a saúde integral e a
+                promoção de hábitos saudáveis na sociedade.
+              </p>
+            </div>
+          </article>
+          <article class="projects__card">
+            <img
+              src="./assets/img/projects-img-3.png"
+              alt="image"
+              class="projects__img"
+            />
+            <div class="projects__data">
+              <span>Enfermagem</span>
+              <h2 class="projects__title">Cuidado Enfermagem</h2>
+              <span class="projects__date">Arte de Cuidar</span>
+              <p>
+                Formamos técnicos em enfermagem com habilidades para oferecer
+                cuidado humanizado e de alta qualidade em diversas áreas.
+              </p>
+            </div>
+          </article>
+          <article class="projects__card">
+            <img
+              src="./assets/img/projects-img-1.png"
+              alt="image"
+              class="projects__img"
+            />
+            <div class="projects__data">
+              <span>Enfermagem</span>
+              <h2 class="projects__title">Enfermagem Técnica</h2>
+              <span class="projects__date">Essencial Saúde</span>
+              <p>
+                Desenvolvemos competências técnicas e éticas para atuação essencial no cuidado e recuperação da saúde.
+              </p>
+            </div>
+          </article>
+          <article class="projects__card">
+            <img
+              src="./assets/img/projects-img-2.png"
+              alt="image"
+              class="projects__img"
+            />
+            <div class="projects__data">
+              <span>Farmácia</span>
+              <h2 class="projects__title">Ciência Farmácia</h2>
+              <span class="projects__date">Mundo dos Fármacos</span>
+              <p>
+                Capacitamos profissionais com conhecimento aprofundado em medicamentos e atenção farmacêutica integral.
+              </p>
+            </div>
+          </article>
+          <article class="projects__card">
+            <img
+              src="./assets/img/projects-img-3.png"
+              alt="image"
+              class="projects__img"
+            />
+            <div class="projects__data">
+              <span>Farmácia</span>
+              <h2 class="projects__title">Farmácia Clínica</h2>
+              <span class="projects__date">Atenção e Saúde</span>
+              <p>
+                Formação focada no uso racional de medicamentos e no cuidado farmacêutico ao paciente.
+              </p>
+            </div>
+          </article>
           <article class="projects__card">
             <img
               src="./assets/img/projects-img-1.png"
@@ -296,6 +405,22 @@
               <span>Maintenance & Repair</span>
               <h2 class="projects__title">Stairs & Columns</h2>
               <span class="projects__date">May 21, 2024</span>
+              <p>
+                Construction of a two-story house with columns, foundations,
+                floor, ceilings and others.
+              </p>
+            </div>
+          </article>
+          <article class="projects__card">
+            <img
+              src="./assets/img/projects-img-3.png"
+              alt="image"
+              class="projects__img"
+            />
+            <div class="projects__data">
+              <span>Construction Of Home Areas</span>
+              <h2 class="projects__title">kitchen Room</h2>
+              <span class="projects__date">July 03, 2024</span>
               <p>
                 Construction of a two-story house with columns, foundations,
                 floor, ceilings and others.
