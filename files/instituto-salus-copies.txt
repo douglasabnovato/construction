@@ -287,25 +287,46 @@ Agora as descrições estão mais completas, utilizando melhor o limite de 80 ca
 
 ========== CONTACT ==========
 .section__subtitle
-CONTACT ME
+CONTACT ME = FAÇA SUA INSCRIÇÃO
 
 .section__title
-Write To Us & Build
+Write To Us & Build 
+Escreva para nós e construa
+= 
+Entre em contato com nosso especialista 
 
 .contact__title .contact__info
-I'm here
-Peru - Lima <br>
-Av.Moon #321
+I'm here 
+Peru - Lima <br />
+Av.Moon #321 
+=
+Juiz de Fora - MG <br>
+Shopping Santa Cruz <br>
+R. Jarbas de Lery Santos, 1655<br>
+Segundo PISO
 
-Talk to me
+:. CONFIGURAR O GOOGLE MAPS: ****
+Usar o nome Salus 
+https://maps.app.goo.gl/o6kHoFNd3Ti8gyHN7
+
+Talk to me = Fale agora
 +00-987-7654-321 <br>
 +11-012345
 
-Chat with me
-https://api.whatsapp.com/send?phone=51123456789&text=Hello, more information!
-https://m.me/bedimcode
-https://t.me/telegram
+=
+<a href="tel:+55323512345">Ligar para +55323512345</a>
+32977774444
+32988885555
 
+Chat with me
+= 
+Converse comigo
+= 
+Converse agora
+
+https://api.whatsapp.com/send?phone=5532977774444&text=Quero me inscrever agora!
+
+https://api.whatsapp.com/send?phone=51123456789&text=Hello, more information!
 
 ========== FOOTER ==========
 .footer__logo span
