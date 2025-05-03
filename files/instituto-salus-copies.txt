@@ -331,9 +331,28 @@ https://api.whatsapp.com/send?phone=51123456789&text=Hello, more information!
 ========== FOOTER ==========
 .footer__logo span
 Construct
+= 
+INSTITUTO SALUS DE EDUCAÇÃO PROFISSIONAL
 
 .footer__description
 We build security <br> and trust in homes.
+=
+Nós construímos segurança e confiança em lares.
+
+=
+
+Você Aprende NA <br />
+PRÁTICA Desde o Início
+
+Nós transformamos a sociedade formando profissionais de<br />
+excelência, ética e forte compromisso com <br />
+o bem-estar coletivo.
+			  
+Nós nos esforçamos para fornecer os melhores profissionais para
+fazer da sua carreira uma obra-prima da saúde, algo único e
+incomparável.
+
+
 
 .footer__email
 Email: construct123@email.com

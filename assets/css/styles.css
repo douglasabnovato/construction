@@ -9,6 +9,14 @@
   /*Color mode HSL(hue, saturation, lightness)*/
   --first-color: hsl(18, 95%, 55%);
   --second-color: hsl(42, 98%, 52%);
+  --third-color: #2b7329; /*verde*/
+  --verde-claro-color: #81c784; /*Verde mais claro*/
+  --verde-escuro-color: #021403; /*Verde mais escuro*/
+  --fourth-color: #e5650e; /*laranja*/
+  --laranja-claro-color: #ffb74d; /*laranja mais claro*/
+  --laranja-escuro-color: #e64a19; /*laranja mais escuro*/
+  --fifth-color: #353535; /*preteado*/
+  --cinza-color: #e0e0e0; /*cinza claro*/
   --first-gradient: linear-gradient(
     90deg,
     hsl(18, 95%, 55%),
@@ -239,7 +247,7 @@ img {
 /*=============== HOME ===============*/
 .home {
   position: relative;
-  background-color: var(--black-color);
+  background-color: var(--verde-escuro-color);
 }
 
 .home__container {
@@ -457,7 +465,7 @@ img {
   position: absolute;
   width: 100%;
   height: 245px;
-  background-color: var(--black-color);
+  background-color: var(--verde-escuro-color);
   bottom: 0;
   left: 0;
 }
@@ -496,7 +504,7 @@ img {
 
 /*=============== PROJECTS ===============*/
 .projects {
-  background-color: var(--black-color);
+  background-color: var(--verde-escuro-color);
 }
 
 .projects .section__title {
@@ -601,7 +609,7 @@ img {
 
 /*=============== FOOTER ===============*/
 .footer {
-  background-color: var(--black-color);
+  background-color: var(--verde-escuro-color);
   color: var(--text-color-light);
   padding-block: 3.5rem 2rem;
 }
@@ -631,6 +639,20 @@ img {
 
 .footer__description {
   margin-block: 1rem;
+}
+
+
+.footer__info {
+  text-decoration: none;
+} 
+
+.footer__info {
+  color: var(--text-color-light);
+  transition: color 0.4s;
+}
+
+.footer__info:hover {
+  color: var(--first-color);
 }
 
 .footer__email,
@@ -766,7 +788,7 @@ img {
     grid-template-columns: repeat(1, max-content);
   }
 }
-  
+
 /* For medium devices */
 @media screen and (min-width: 540px) {
   .home__container,
