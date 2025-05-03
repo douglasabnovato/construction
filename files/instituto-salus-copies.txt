@@ -1,0 +1,359 @@
+Requisitos:
+- copies
+- images
+
+SEÇÕES:
+
+HEADER
+HOME
+
+ABOUT US = Instituto Salus
+SERVICES = Nossas Especialidades 
+PROJECTS = Treinamentos 
+Cursos Livres - CRIAR
+Contact Us = Faça sua inscrição
+
+FOOTER
+
+COPIES
+
+========== HEADER ==========
+.nav__logo = Logo do Instituto Salus em favicon
+Construction = Instituto Salus
+
+.nav__link
+Home - About Us - Services - Projects - Contact Us
+ =
+Home - Instuto Salus - Nossas Especialidades - Treinamentos - Faça sua inscrição
+
+
+========== HOME ==========
+imgs
+
+1-home-img-1
+2-home-img-2
+= 
+trocadas por outras
+
+.home__title
+Create The <br> 
+Constructions <br> 
+You Want Here
+
+= 
+
+CONSTRUA A
+SUA CARREIRA
+NA SAÚDE AQUI
+
+.home__description
+We provide the best home design, construction and 
+maintenance services for you and your family.
+
+= 
+
+Oferecemos os melhores treinamentos na saúde, enfermagem 
+fisioterapia, para você transformar a sua carreira.
+
+.button
+Our Services = Nossas Especialidades
+
+.button__link
+View Projects = Treinamentos
+
+.home__info-title .home__info-description
+10+
+Years of <br> Experience
+= 
+Anos de Experiência
+
+200
+Complete <br> Projects
+= 
+Alunos Transformados
+
+
+========== ABOUT ==========
+
+contribuir
+para uma sociedade mais saudável através de 
+profissionais capacitados
+ 
+Tem como propósito, formar 
+profissionais técnicos com excelência, ética e forte 
+compromisso com o bem-estar coletivo, contribuindo 
+para uma sociedade mais saudável através de 
+profissionais capacitados. <br> "Salus", do latim, 
+significa saúde e bem-estar, 
+valores que fundamentam nossa abordagem educacional. 
+Ao integrar o significado do nome ao nosso objetivo 
+como escola técnica, reafirmamos nosso compromisso.
+
+.section__subtitle
+ABOUT US = Instuto Salus
+
+.section__title
+We Provide The Best <br> Service To Build
+= 
+Você aprende <br> NA PRÁTICA <br> desde o início 
+
+.about__description
+We strive to provide the best professionals 
+to make your project a construction masterpiece, 
+something unique and unmatched.
+= 
+Nós nos esforçamos para fornecer os melhores profissionais
+para fazer da sua carreira uma obra-prima da saúde,
+algo único e incomparável.
+
+.about__list-item span
+Professional workers
+Guaranteed quality
+Extensive experience
+We quote your  project
+
+= 
+
+Instrutores experientes
+Prática desde o início
+Formação completa
+Treinamentos livres 
+
+
+.button
+View Projects
+
+
+========== SERVICES ==========
+Você Aprende NA <br />
+PRÁTICA Desde o Início
+			  
+Nós nos esforçamos para fornecer os melhores profissionais para
+fazer da sua carreira uma obra-prima da saúde, algo único e
+incomparável.
+			  
+			  
+.section__subtitle
+OUR SERVICES = Converse com a gente
+
+.section__title
+High Quality <br> Construction Services
+=
+Especialidades da Saúde de Alta Qualidade
+
+.services__description
+We provide multiple services for you, offering 
+confidence and security in construction.
+= 
+Oferecemos diversas ESPECIALIZAÇÕES para você, oferecendo
+confiança e segurança na sua FORMAÇÃO.
+
+.button
+Contact Now = converse com a gente
+
+.services__title
+Housing <br> Construction
+Construction Of <br> Home Areas
+Maintenance & <br> Repair
+Installation Of <br> ceramics & Others
+Water & Drainage <br> Installation
+
+ = 
+ 
+saúde
+enfermagem
+farmácia
+analise clínica
+metodologia
+
+.services__card p
+We build with the best professionals 
+and high-quality work for a safe and 
+effective home.
+=
+Construímos com os melhores profissionais
+e trabalho de alta qualidade para uma casa segura e
+eficiente.
+
+
+========== PROJECTS ==========
+.section__subtitle
+OUR PROJECTS = treinamentos
+
+.section__title
+Latest Completed <br> Projects
+=
+Cursos Livres <br />
+          com Turmas Abertas
+
+.projects__data span .projects__title .projects__data .projects__data p
+House construction
+Two Story House
+January 15, 2024
+
+Maintenance & Repair
+Stairs & Columns
+May 21, 2024
+
+Construction Of Home Areas
+kitchen Room
+July 03, 2024
+
+Construction of a two-story house with columns, 
+foundations, floor, ceilings and others.
+=
+Construção de casa
+Casa de dois andares
+15 de janeiro de 2024
+
+Manutenção e reparo
+Escadas e colunas
+21 de maio de 2024
+
+Construção de áreas da casa
+Cozinha
+3 de julho de 2024
+
+Construção de uma casa de dois andares com colunas,
+fundações, piso, tetos e outros.
+
+Novo conteúdo:
+
+Mais detalhes sobre cada especialização do Instituto Salus:
+Descrição com 80 caracteres
+
+1. Saúde:
+
+Opção 1:
+
+Nome: Saúde Integral
+Subtítulo: Bem-Estar Global
+Descrição: Promovemos a saúde em todas as dimensões, com foco em prevenção, qualidade de vida e bem-estar geral.
+Opção 2:
+
+Nome: Saúde Plena
+Subtítulo: Viver Melhor
+Descrição: Capacitação para profissionais que buscam a saúde integral e a promoção de hábitos saudáveis na sociedade.
+2. Enfermagem:
+
+Opção 1:
+
+Nome: Cuidado Enfermagem
+Subtítulo: Arte de Cuidar
+Descrição: Formamos técnicos em enfermagem com habilidades para oferecer cuidado humanizado e de alta qualidade em diversas áreas.
+Opção 2:
+
+Nome: Enfermagem Técnica
+Subtítulo: Essencial Saúde
+Descrição: Desenvolvemos competências técnicas e éticas para atuação essencial no cuidado e recuperação da saúde.
+3. Farmácia:
+
+Opção 1:
+
+Nome: Ciência Farmácia
+Subtítulo: Mundo dos Fármacos
+Descrição: Capacitamos profissionais com conhecimento aprofundado em medicamentos e atenção farmacêutica integral.
+Opção 2:
+
+Nome: Farmácia Clínica
+Subtítulo: Atenção e Saúde
+Descrição: Formação focada no uso racional de medicamentos e no cuidado farmacêutico ao paciente.
+4. Análise Clínica:
+
+Opção 1:
+
+Nome: Análise Laboratorial
+Subtítulo: Desvendar a Saúde
+Descrição: Ensinamos técnicas precisas para o diagnóstico laboratorial e a interpretação de resultados clínicos.
+Opção 2:
+
+Nome: Diagnóstico Clínico
+Subtítulo: Ciência da Vida
+Descrição: Desenvolvemos a capacidade de realizar análises laboratoriais com rigor científico e ético.
+5. Metodologia:
+
+Opção 1:
+
+Nome: Metodologia Saúde
+Subtítulo: Caminhos do Saber
+Descrição: Oferecemos ferramentas e estratégias para aprimorar a prática profissional e a pesquisa na área da saúde.
+Opção 2:
+
+Nome: Prática Metodológica
+Subtítulo: Inovar Cuidando
+Descrição: Capacitação em métodos eficazes para o desenvolvimento de projetos e intervenções em saúde.
+
+Agora as descrições estão mais completas, utilizando melhor o limite de 80 caracteres para transmitir mais informação sobre cada especialização. O que você acha dessas versões? 😊
+
+========== CONTACT ==========
+.section__subtitle
+CONTACT ME
+
+.section__title
+Write To Us & Build
+
+.contact__title .contact__info
+I'm here
+Peru - Lima <br>
+Av.Moon #321
+
+Talk to me
++00-987-7654-321 <br>
++11-012345
+
+Chat with me
+https://api.whatsapp.com/send?phone=51123456789&text=Hello, more information!
+https://m.me/bedimcode
+https://t.me/telegram
+
+
+========== FOOTER ==========
+.footer__logo span
+Construct
+
+.footer__description
+We build security <br> and trust in homes.
+
+.footer__email
+Email: construct123@email.com
+
+.footer__title .footer__link .footer__info
+Company
+ About Us
+ Services
+ Projects
+
+Information
+ Peru - Lima <br> Av.Moon #321
+ 9AM - 11PM
+
+Social Media
+https://www.facebook.com/
+https://www.instagram.com/
+https://twitter.com/
+
+.footer__copy
+&#169; All Rights Reserved By Bedimcode
+
+
+IAMGENS
+
+favicon.png : 24x24
+
+home-img-1.png : 700x519
+
+home-img-2.png : 500x371
+
+home-lines-bg.svg
+
+about-img-1.png : 600x762
+
+about-img-2.png : 600x662
+
+projects-img-1.png : 500x365
+
+projects-img-2.png : 500x365
+
+projects-img-3.png : 500x365
+
+contact-img.png : 700x620
