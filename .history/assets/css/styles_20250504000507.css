@@ -690,15 +690,6 @@ img {
   justify-self: center;
 }
 
-.contact__img { 
-  transition: transform 0.4s;
-}
-
-.contact__img:hover {
-  transform: translateY(-0.25rem);
-  border: 2px solid var(--first-color); 
-}
-
 .contact__data {
   grid-template-columns: 230px;
   justify-content: center;
