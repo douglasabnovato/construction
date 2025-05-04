@@ -643,6 +643,7 @@ img {
   float: right;
   font-size: 32px;
   font-weight: bold;
+  padding-block-start: 10px;
   padding-inline-end: 10px;
 }
 

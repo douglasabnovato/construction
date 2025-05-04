@@ -641,9 +641,8 @@ img {
 .close-1 {
   color: #aaaaaa;
   float: right;
-  font-size: 32px;
+  font-size: 28px;
   font-weight: bold;
-  padding-inline-end: 10px;
 }
 
 .close-1:hover,
@@ -670,7 +669,7 @@ img {
 }
 
 .projects__data-1 {
-  padding: 1.6rem 1.4rem 2.4rem;
+  padding: 1.5rem 2rem 3rem;
 }
 
 .projects__date-1 {

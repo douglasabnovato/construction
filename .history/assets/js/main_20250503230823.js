@@ -104,13 +104,13 @@ sr.reveal(`.projects__card`, { interval: 100 });
 /*=============== Modal 1 ===============*/
 
 // Get the modal
-var modal = document.getElementById("modal-1");
+var modal = document.getElementById("myModal");
 
 // Get the button that opens the modal
-var btn = document.getElementById("btn-1");
+var btn = document.getElementById("myBtn");
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close-1")[0];
+var span = document.getElementsByClassName("close-m1")[0];
 
 // When the user clicks the button, open the modal
 btn.onclick = function () {

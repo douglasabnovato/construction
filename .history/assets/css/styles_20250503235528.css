@@ -641,9 +641,8 @@ img {
 .close-1 {
   color: #aaaaaa;
   float: right;
-  font-size: 32px;
+  font-size: 28px;
   font-weight: bold;
-  padding-inline-end: 10px;
 }
 
 .close-1:hover,

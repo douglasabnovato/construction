@@ -358,25 +358,41 @@ incomparável.
 Email: construct123@email.com
 
 .footer__title .footer__link .footer__info
+
 Company
  About Us
  Services
  Projects
-
+ =
+ Instituto
+ Regulamento Estudantil
+ Registros no MEC
+ 
 Information
  Peru - Lima <br> Av.Moon #321
  9AM - 11PM
-
+ = 
+ Informações
+ Orientações para Calouros
+ Informações Acadêmicas
+ 
 Social Media
-https://www.facebook.com/
 https://www.instagram.com/
+https://www.facebook.com/
 https://twitter.com/
+= 
+Salus Digital
+https://www.instagram.com/
+https://www.facebook.com/
+https://twitter.com/
+
 
 .footer__copy
 &#169; All Rights Reserved By Bedimcode
+=
+&#169; By @douglasabnovato
 
-
-IAMGENS
+IMAGENS
 
 favicon.png : 24x24
 

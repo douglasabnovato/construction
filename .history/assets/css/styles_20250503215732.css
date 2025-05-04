@@ -542,7 +542,7 @@ img {
   margin-bottom: 1.5rem;
 }
 
-/*=============== BUTTON info ===============*/
+/*=============== BUTTON INSCREVER ===============*/
 /* General button style */
 .btn {
   border: none;
@@ -553,7 +553,7 @@ img {
   cursor: pointer;
   padding: 8px 16px;
   display: inline-block;
-  margin: 15px 0px;
+  margin: 15px 30px;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 700;
@@ -588,29 +588,29 @@ img {
 
 /* Icon separator */
 .btn-sep {
-  padding: 14px 26px 14px 82px;
+  padding: 25px 60px 25px 120px;
 }
 
 .btn-sep:before {
   background: rgba(0, 0, 0, 0.15);
 }
 
-/* Button 3 */
-.btn-3 {
-  background-color: #2b7329;
+/* Button 1 : mais detalhes*/
+.btn-1 {
+  background: #3498db;
   color: #fff;
 }
 
-.btn-3:hover {
-  background: #10480e;
+.btn-1:hover {
+  background: #2980b9;
 }
 
-.btn-3:active {
-  background: #c0392b;
+.btn-1:active {
+  background: #2980b9;
   top: 2px;
 }
 
-.btn-3:before {
+.btn-1:before {
   position: absolute;
   height: 100%;
   left: 0;
@@ -619,65 +619,6 @@ img {
   font-size: 140%;
   width: 60px;
 }
-
-/*=============== MODAL 1 ===============*/
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0, 0, 0); /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
-}
- 
-
-/* The Close Button */
-.close-1 {
-  color: #aaaaaa;
-  float: right;
-  font-size: 32px;
-  font-weight: bold;
-  padding-inline-end: 10px;
-}
-
-.close-1:hover,
-.close-1:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
-}  
-
-.projects__card-1 {
-  background-color: var(--container-color);
-  border: 4px solid transparent;
-  background-clip: content-box;
-  transition: border-color 0.4s;   
-  margin: auto; 
-  max-width: 840px;
-  width:100%;
-  padding: 2px;
-}
- 
-
-.projects__card-1:hover {
-  border-color: var(--first-color);
-}
-
-.projects__data-1 {
-  padding: 1.6rem 1.4rem 2.4rem;
-}
-
-.projects__date-1 {
-  display: block;
-  font-weight: var(--title-color);
-  margin-bottom: 1.5rem;
-} 
 
 /*=============== CONTACT ===============*/
 .contact__container {
@@ -776,7 +717,6 @@ img {
 }
 
 .footer__description {
-  max-width: 96%;
   margin-block: 1rem;
 }
 
@@ -811,7 +751,6 @@ img {
 
 .footer__links,
 .footer__list {
-  max-width: 42%;
   display: grid;
   row-gap: 0.5rem;
 }
