@@ -1,4 +1,4 @@
-## Escola técnica - versão 2
+## Education - versão 2
 
 Uma SPA para demonstrar detalhes dos cursos.
 
